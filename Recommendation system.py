@@ -6,7 +6,7 @@ import sklearn
 from sklearn.decomposition import TruncatedSVD
 
 #loading dataset
-df = pd.read_csv('../input/amazon-ratings/ratings_Beauty.csv')
+df = pd.read_csv('ratings_Beauty.csv')
 df = df.dropna()
 df1 = df.head(10000)
 
